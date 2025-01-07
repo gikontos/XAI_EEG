@@ -1,4 +1,12 @@
-| Paper Title | XAI Method | Modality | Evaluation dataset | Interpretable vs Post-hoc | Local vs Global | Model Agnostic vs Model Specific |
-|-------------|------------|----------|--------------------|---------------------------|-----------------|----------------------------------|
-| SleepXAI: An explainable deep learning approach for multi-class sleep stage identification | Grad-CAM | Raw EEG | Sleep-EDFx 2013 version | Post-hoc | local | model specific|
- 
+| Paper Title | XAI Method | Modality | Evaluation dataset | Domain | Interpretable vs Post-hoc | Local vs Global | Model Agnostic vs Model Specific |
+|-------------|------------|----------|--------------------|--------|---------------------------|-----------------|----------------------------------|
+| SleepXAI: An explainable deep learning approach for multi-class sleep stage identification | Grad-CAM | Raw EEG | Sleep-EDFx 2013 version | Sleep | Post-hoc | local | model-specific |
+| XAI4EEG: spectral and spatio-temporal explanation of deep learning-based seizure detection in EEG time series | SHAP DeepExplainer and SHAP GradientExplainer | Extracted Features | dataset presented in Stevenson, Nathan J., et al. "A dataset of neonatal EEG recordings with seizure annotations." Scientific data 6.1 (2019): 1-8. | seizure | Post-hoc | local | model-specific |
+| Identifying EEG Biomarkers of Depression with Novel Explainable Deep Learning Architectures | 2 Ablation based techniques, 1 Activation analysis, 1 Activation Correlation analysis | raw EEG | dataset presented here : A wavelet-based technique to predict treatment outcome for Major Depressive Disorder | MDD | Post-hoc | global | both |
+| Investigating the Effect of Pre-processing Methods on Model Decision-Making in EEG-Based Person Identification | Integrated Gradients | EEG signal represented as graph | DEAP | biometric applications | Post-hoc | local | model-specific |
+| A Novel Activation Maximization-based Approach for Insight into Electrophysiology Classifiers | FAME | Raw EEG | Sleep Cassete | Sleep | Post-hoc | both | model-agnostic |
+| STQS: Interpretable multi-modal Spatial-Temporal-seQuential model for automatic Sleep scoring | Occlusions, LRP and power spectrum analysis | 3 modalities (EEG,EOG,EMG) | SHHS-1 | Post-hoc | both | both |
+| EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces | 
+| A Model Visualization-based Approach for Insight into Waveforms and Spectra Learned by CNNs | LRP, filter perturbation | Raw EEG | Sleep Cassette | Sleep | Post-hoc | global | model-specific |
+| A Systematic Approach for Explaining Time and Frequency Features Extracted by Convolutional Neural Networks From Raw Electroencephalography Data | ablation, LRP | Raw EEG | Sleep Cassette | sleep | global | model-specific |
+| Improving Explainability for Single-Channel EEG Deep Learning Classifiers via Interpretable Filters and Activation Analysis | filter Perturbation | Raw EEG | Sleep Cassette | sleep | Post-hoc | global | model-specific |
