@@ -27,3 +27,33 @@
 | Toward the application of XAI methods in EEG-based systems | Saliency, Guided BackPropagation, LRP, Integrated Gradients, DeepLIFT | EEG in the context of BCI | SEED | Emotion recognition | Post-hoc | both | both |
 | A Framework for Systematically Evaluating the Representations Learned by A Deep Learning Classifier from Raw Multi-Channel Electroencephalogram Data | LRP | Raw EEG | dataset presented in:  Mumtaz, Wajid (2016). MDD Patients and Healthy Controls EEG Data (New). figshare. Dataset. https://doi.org/10.6084/m9.figshare.4244171.v2 | MDD | Post-hoc | both | model-specific |
 | EEG-based outcome prediction after cardiac arrest with convolutional neural networks: Performance and visualization of discriminative features | Grad-CAM | Raw EEG | Dataset built for the research | Prognostication for comatose patients after cardiac arrest | Post-hoc | local | model-specific |
+| Evaluation of the Relation between Ictal EEG Features and XAI Explanations | SHAP, LIME | raw EEG | CHB-MIT, TUH | Seizure | Post-hoc | local | model-agnostic |
+| Explainable Artificial Intelligence Model for Stroke Prediction Using EEG Signal | Eli5, LIME | Extracted features | description of dataset | Stroke | Post-hoc | local | both |
+| An Explainable EEG-Based Human Activity Recognition Model Using Machine-Learning Approach and LIME | LIME | Extracted features | description of dataset | Activity recognition | Post-hoc | local | model-agnostic |
+| NeuroXAI: Adaptive, robust, explainable surrogate framework for determination of channel importance in EEG application | local surrogate analysis | raw EEG | OpenBMI | regardless of EEG application | Post-hoc | both | model-agnostic |
+| Using Explainable Artificial Intelligence to Obtain Efficient Seizure-Detection Models Based on Electroencephalography Signals | SHAP | Extracted Features | UBMC | Seizure | Post-hoc | local | model-agnostic |
+| Unraveling motor imagery brain patterns using explainable artificial intelligence based on Shapley values | SHAP | Raw EEG | Physionet, Stieger 2021 | motor execution-imagery | Post-hoc | local | model-agnostic |
+| A Secure and Interpretable AI for Smart Healthcare System: A Case Study on Epilepsy Diagnosis Using EEG Signals | SHAP | Extracted features | Bonn, UCI, CHB-MIT | Seizure | Post-hoc | both | model-agnostic |
+| Spatio-Temporal Explanation of 3D-EEGNet for Motor Imagery EEG Classification Using Permutation and Saliency | Permutation, Saliency maps, DeepLIFT, DeepSHAP | Raw EEG | BCI Competition III-IV, GigaDB | motor execution-imagery | Post-hoc | both | both |
+| Enhancing accuracy and interpretability in EEG-based medical decision making using an explainable ensemble learning framework application for stroke prediction | SHAP, LIME | Extracted features | "dataset from here: [2] A. Aminov, J.M. Rogers, S.J. Johnstone, S. Middleton, P.H. Wilson, Acute single channel EEG predictors of cognitive function after stroke, PLoS One 2017 (12) (2017), e0185841. | Stroke | Post-hoc | both | model-agnostic |
+| Optimizing Emotion Recognition in EEG Data: A Genetic Algorithm Approach with XAI Insights | SHAP Deep Explainer | spectogram | DENS | Emotion recognition | Post-hoc | local | model-agnostic |
+| SHAP value-based ERP analysis (SHERPA): Increasing the sensitivity of EEG signals with explainable AI methods | SHAP | Raw EEG | dataset by Sagehorn et al.(2023) | ERP | Post-hoc | local | model-agnostic |
+| Evaluation of interpretability for deep learning algorithms in EEG emotion recognition: A case study in autism | Smooth-Grad, Smooth-Grad Squared, PatternNet, LRP | EEG whitened image | description of dataset | autism | Post-hoc | both | model-specific |
+| An efficient feature selection and explainable classification method for EEG-based epileptic seizure detection | SHAP | Extracted features | Bonn, UCI-EEG | Seizure | Post-hoc | both | model-agnostic |
+| Towards Optimising EEG Decoding using Post-hoc Explanations and Domain Knowledge | Grad-CAM | Raw EEG | EEGMMID-Physionet | motot execution-imagery | Post-hoc | local | model-specific |
+| Explainable Fuzzy Deep Learning for Prediction of Epileptic Seizures Using EEG | SHAP, LIME | Extracted Features | CHB-MIT | Seizure | Post-hoc | both | both |
+| Explainable artificial intelligence to evaluate industrial internal security using EEG signals in IoT framework | Permutations, SHAP | Extracted features | description of dataset | Industrial internal security | Post-hoc | both | both |
+| An EEG-based Automatic Classification Model for Epilepsy with Explainable Artificial Intelligence | SHAP, LIME | Extracted features | TUH | Epilepsy | Post-hoc | both | both |
+| Employing convolutional neural networks and explainable artificial intelligence for the detection of seizures from electroencephalogram signal | SHAP | Extracted features | description of dataset | Seizure | Post-hoc | both | model-specific |
+| An Explainable Model for EEG Seizure Detection based on Connectivity Features | input based explanation drivers methods | Extracted features | CHB-MIT | Seizure | Post-hoc | both | model-specific |
+| An explainable deep-learning model to stage sleep states in children and propose novel EEG-related patterns in sleep apnea | Grad-CAM | raw EEG | CHAT, UofC | Sleep | Post-hoc | local | model-specific |
+| Novel diversified echo state network for improved accuracy and explainability of EEG-based stroke prediction | Eli5, LIME | Extracted features | description of dataset | Stroke | Post-hoc | both | both |
+| Enhancing Schizophrenia Prediction Using Class Balancing and SHAP Explainability Techniques on EEG Data | SHAP | Extracted features | "Identifying Psychiatric Disorders Using Machine-Learning (Dataset)" | Schizophrenia | Post-hoc | global | model-specific |
+| AN INTERPRETABLE GRAPH BASED MODEL FOR CLASSIFICATION OF EEG USING DIRECTIONAL FUNCTIONAL CONNECTIVITY | Saliency maps, Integrated Gradient | EEG converted to Graph | NMT, CauEEG | EEG classification | Post-hoc | both | model-specific |
+| EXPLAINABLE GRAPH NEURAL NETWORKS FOR EEG CLASSIFICATION AND SEIZURE DETECTION IN EPILEPTIC PATIENTS |
+| VISUAL EXPLANATIONS OF DEEP CONVOLUTIONAL NEURAL NETWORK FOR EEG BRAIN FINGERPRINT | Grad-CAM | Raw EEG | own dataset | brain fingerprints | Post-hoc | local | model-specific |
+| Explainable Depression Recognition from EEG Signals via Graph Convolutional Network | Interpretable model | Raw EEG | MODMA | depression | Interpretable | both | model-specific |
+| A Convolutional Autoencoder-based Explainable Clustering Approach for Resting-State EEG Analysis |
+
+
+| 
