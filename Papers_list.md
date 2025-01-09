@@ -50,10 +50,14 @@
 | Novel diversified echo state network for improved accuracy and explainability of EEG-based stroke prediction | Eli5, LIME | Extracted features | description of dataset | Stroke | Post-hoc | both | both |
 | Enhancing Schizophrenia Prediction Using Class Balancing and SHAP Explainability Techniques on EEG Data | SHAP | Extracted features | "Identifying Psychiatric Disorders Using Machine-Learning (Dataset)" | Schizophrenia | Post-hoc | global | model-specific |
 | AN INTERPRETABLE GRAPH BASED MODEL FOR CLASSIFICATION OF EEG USING DIRECTIONAL FUNCTIONAL CONNECTIVITY | Saliency maps, Integrated Gradient | EEG converted to Graph | NMT, CauEEG | EEG classification | Post-hoc | both | model-specific |
-| EXPLAINABLE GRAPH NEURAL NETWORKS FOR EEG CLASSIFICATION AND SEIZURE DETECTION IN EPILEPTIC PATIENTS |
+| EXPLAINABLE GRAPH NEURAL NETWORKS FOR EEG CLASSIFICATION AND SEIZURE DETECTION IN EPILEPTIC PATIENTS | GNNExplainer | EEG converted to Graph | CHB-MIT | Seizure | Post-hoc | both | model-specific |
 | VISUAL EXPLANATIONS OF DEEP CONVOLUTIONAL NEURAL NETWORK FOR EEG BRAIN FINGERPRINT | Grad-CAM | Raw EEG | own dataset | brain fingerprints | Post-hoc | local | model-specific |
 | Explainable Depression Recognition from EEG Signals via Graph Convolutional Network | Interpretable model | Raw EEG | MODMA | depression | Interpretable | both | model-specific |
-| A Convolutional Autoencoder-based Explainable Clustering Approach for Resting-State EEG Analysis |
-
-
-| 
+| A Convolutional Autoencoder-based Explainable Clustering Approach for Resting-State EEG Analysis | version of EasyPEASI | raw EEG | dataset that was presented here: Combination of FMRI-SMRI-EEG data improves discrimination of schizophrenia patients by ensemble feature selection | Schizophrenia | Post-hoc | global | model-agnostic |
+| An EEG Channel Selection Framework for Driver Drowsiness Detection via Interpretability Guidance | CAM | 2D image data | dataset: Zehong Cao, Chun-Hsiang Chuang, Jung-Kai King, and Chin-Teng Lin, “Multi-channel EEG recordings during a sustained-attention driving task,” Scientific data, vol. 6, no. 1, pp. 1–8, 2019. | Driver Drowsiness | Post-hoc | global | model-specific |
+| Interpretable SincNet-based Deep Learning for Emotion Recognition from EEG brain activity | Interpretable model | Raw EEG | description of dataset | Emotion recognition | Interpretable | global | model-specific |
+| Explainable Sleep Stage Classification with Multimodal Electrophysiology Time-series | ablation | 3 modalities (EEG, EOG, EMG) | Sleep-EDF | Sleep | Post-hoc | global | model-agnostic |
+| Hierarchical Neural Network with Layer-wise Relevance Propagation for Interpretable Multiclass Neural State Classification | LRP | Extracted features | own dataset (from a mouse) | Sleep | Post-hoc | local | model-specific |
+| Nonlinear EEG analysis of mindfulness training using interpretable machine learning | SHAP | Extracted features | MBT | classification of Pre vs Post mindfulness training | Post-hoc | both | model-agnostic |
+| Explainability Using SHAP for Epileptic Seizure Recognition | SHAP | Extracted features | Epileptic Seizure Recognition data set | Seizure | Post-hoc | both | model-agnostic |
+| Adversarial Representation Learning for Robust Patient-Independent Epileptic Seizure Detection | attention mechanism | raw EEG | TUH | Seizure | Post-hoc | local | model-agnostic |
