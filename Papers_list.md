@@ -57,7 +57,7 @@
 | Interpretable SincNet-based Deep Learning for Emotion Recognition from EEG brain activity | Interpretable model | Raw EEG | description of dataset | Emotion recognition | Interpretable | global | model-specific |
 | Explainable Sleep Stage Classification with Multimodal Electrophysiology Time-series | ablation | 3 modalities (EEG, EOG, EMG) | Sleep-EDF | Sleep | Post-hoc | global | model-agnostic |
 | Hierarchical Neural Network with Layer-wise Relevance Propagation for Interpretable Multiclass Neural State Classification | LRP | Extracted features | own dataset (from a mouse) | Sleep | Post-hoc | local | model-specific |
-| Nonlinear EEG analysis of mindfulness training using interpretable machine learning | SHAP | Extracted features | MBT | classification of Pre vs Post mindfulness training | Post-hoc | both | model-agnostic |
+| Nonlinear EEG analysis of mindfulness training using interpretable machine learning | SHAP | Extracted features | MBT | classification of Pre vs Post mindfulness training | Post-hoc | global | model-agnostic |
 | Explainability Using SHAP for Epileptic Seizure Recognition | SHAP | Extracted features | Epileptic Seizure Recognition data set | Seizure | Post-hoc | both | model-agnostic |
 | Adversarial Representation Learning for Robust Patient-Independent Epileptic Seizure Detection | attention mechanism | raw EEG | TUH | Seizure | Post-hoc | local | model-agnostic |
 | Assessment of Valance Emotional State Using EEG-EDA Coupling and Explainable Classifiers | SHAP | Extracted features | DEAP | Emotion | Post-hoc | global | model-agnostic |
