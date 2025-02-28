@@ -65,3 +65,4 @@
 | ADHD/CD-NET: automated EEG-based characterization of ADHD and CD using explainable deep neural network technique | Grad-CAM | scalograms | private dataset, Ali Motie Nasrabadi, Armin Allahverdy, Mehdi Samavati, 2020 | ADHD and CD | Post-hoc | local | model-specific |
 | An Integrated Machine Learning-Based Brain Computer Interface to Classify Diverse Limb Motor Tasks: Explainable Model | LIME | Extracted features | BCI competition III dataset IVa | motor-imagery | Post-hoc | local | model-agnostic |
 | TATPat based explainable EEG model for neonatal seizure detection | EFE model | Extracted features | Helsinki University Hospital’s Neonatal Intensive Care Unit (NICU) | seizure | Interpretable | global | model-specific |
+| Detection of epilepsy with Electroencephalogram using rule-based classifiers | four rule-based classifiers | Extracted features | University of Bonn | Epilepsy | Post-hoc | global | model-specific |
